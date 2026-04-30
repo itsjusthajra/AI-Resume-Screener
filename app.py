@@ -568,7 +568,7 @@ elif page == "Model Comparison":
         f"""
         <div>
             The app uses the saved bundle from <code>model/resume_model.pkl</code>.
-            In the saved metadata, <b>{meta.get('best_model', 'the top-scoring model')}</b> is the best scoringmodel that was kept for prediction.
+            In the saved metadata, <b>{meta.get('best_model', 'the top-scoring model')}</b> is the best scoring model that was kept for prediction.
         </div>
         """,
         unsafe_allow_html=True,
